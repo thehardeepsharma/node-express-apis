@@ -1,0 +1,22 @@
+{
+  "name": "node-express-apis",
+  "description": "A basic login logout app using ExpressJS and Mongoose",
+  "version": "0.0.1",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thehardeepsharma/node-express-apis"
+  },
+  "author": "hardeep@pluspair.com",
+  "license": "MIT",
+  "homepage": "http://www.pluspair.com",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "caminte": "^0.4.0",
+    "express": "^4.15.3",
+    "jwt-simple": "^0.5.1",
+    "md5": "^2.2.1",
+    "moment": "^2.19.1",
+    "mysql": "^2.15.0"
+  }
+}
