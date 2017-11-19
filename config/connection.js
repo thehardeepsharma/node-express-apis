@@ -7,7 +7,7 @@ var config = {
 	port       : "3306",
 	username   : "root",
 	password   : "",
-	database   : "wordpress",
+	database   : "pharmacy",
 	pool       : true // optional for use pool directly 
 };
 

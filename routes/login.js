@@ -5,14 +5,12 @@ module.exports = function(app) {
 	
 	// User Login
 	app.get('/login', function(req, res) {
-		console.log(req.body);
 		userModule.authenticate(req,res);
 	});
 	
 	// User Authenticate
 	app.post('/authenticate', function(req, res) {	
-		console.log(req.body);
-		userModule.authenticate(req,res);
+		return userModule.authenticate(req,res);
 	});
 	
 	app.get('/logout', function(req, res) {
